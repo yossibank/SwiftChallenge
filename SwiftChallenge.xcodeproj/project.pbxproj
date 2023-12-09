@@ -143,6 +143,8 @@
 			dependencies = (
 			);
 			name = SwiftChallenge;
+			packageProductDependencies = (
+			);
 			productName = SwiftChallenge;
 			productReference = 78178B922B24ADA800ABC094 /* SwiftChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +217,9 @@
 				Base,
 			);
 			mainGroup = 78178B892B24ADA800ABC094;
+			packageReferences = (
+				789F83512B24B18000D4E26F /* XCRemoteSwiftPackageReference "SwiftFormat" */,
+			);
 			productRefGroup = 78178B932B24ADA800ABC094 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -588,6 +593,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		789F83512B24B18000D4E26F /* XCRemoteSwiftPackageReference "SwiftFormat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicklockwood/SwiftFormat";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 78178B8A2B24ADA800ABC094 /* Project object */;
 }

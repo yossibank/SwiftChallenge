@@ -1,0 +1,1 @@
+swift run --package-path BuildTools swiftformat .

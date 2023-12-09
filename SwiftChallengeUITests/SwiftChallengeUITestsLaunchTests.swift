@@ -1,14 +1,6 @@
-//
-//  SwiftChallengeUITestsLaunchTests.swift
-//  SwiftChallengeUITests
-//
-//  Created by Kamiyama Yoshihito on 2023/12/09.
-//
-
 import XCTest
 
 final class SwiftChallengeUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
